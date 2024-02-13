@@ -3,15 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="stylesheet.css" rel ="stylesheet"></link>
+    <title>Wanna Play a Game</title>
 </head>
 <body>
-    <label>Choose a Difficulty:</label> 
-    <select name="difficulty" id="difficulty"> 
-        <option value="Easy">Easy</option> 
-        <option value="Medium">Medium</option> 
-        <option value="Hard">Hard</option>  
-    </select>
-    
+    <div class = "diff">
+        <label>Choose a Difficulty:</label> 
+        <select name="difficulty" id="difficulty"> 
+            <option value="Easy">Easy</option> 
+            <option value="Medium">Medium</option> 
+            <option value="Hard">Hard</option>  
+        </select>
+    </div>
+    <div class ="value">
+        <label>Input a Value: </label>
+        <input type="text" id="input"/>
+        <p id="test"></p>
+    </div>
+    <button class="again">Play again</button>
+    <script src="script.js"></script>
 </body>
 </html>
