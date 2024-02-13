@@ -24,7 +24,7 @@ const selector = document.querySelector("#difficulty");
 const btn = document.querySelector("#confirm");
 const input = document.querySelector("#input");
 const output = document.querySelector("#test");
-const gen = document.querySelector(".again")
+const gen = document.querySelector(".again");
 let diffIndex = 0;
 let number = 0;
 let tries = 10;
@@ -50,7 +50,8 @@ input.addEventListener("keypress",(e) =>
                 tes = true;
             }
         }
-    }})
+    }
+})
 
 selector.onchange = (event) =>{
     event.preventDefault();
